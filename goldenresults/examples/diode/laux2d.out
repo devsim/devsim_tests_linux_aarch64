@@ -1,3 +1,8 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.so:liblapack.so:libblas.so"
+Loading "libopenblas.so": ALL BLAS/LAPACK LOADED
+Skipping liblapack.so
+Skipping libblas.so
+loading UMFPACK 5.1 as direct solver
 Adding 501 nodes
 Adding 1422 edges with 0 duplicates removed
 Adding 922 triangles  with 0 duplicate removed
@@ -85,16 +90,16 @@ Replacing Edge Model vdiff:Potential@n1 in region Bulk of material Silicon
 5 ElectricField_y:Potential@en1
 6 ElectricField_x:Potential@en2
 7 ElectricField_y:Potential@en2
-0.0
-[[ 2.78228812e-15 -2.65415139e+01]
- [ 3.11046122e-15 -2.65415139e+01]
+2.5902409106492996e-09
+[[ 1.81628291e-15 -2.65415139e+01]
+ [ 2.03051492e-15 -2.65415139e+01]
  [ 0.00000000e+00 -2.65415139e+01]]
-[[ 2.78228812e-15 -2.65415139e+01]
- [ 3.11046122e-15 -2.65415139e+01]
+[[ 1.81628291e-15 -2.65415139e+01]
+ [ 2.03051492e-15 -2.65415139e+01]
  [ 0.00000000e+00 -2.65415139e+01]]
-[[0. 0.]
- [0. 0.]
- [0. 0.]]
+[[ 0.00000000e+00 -7.10542736e-15]
+ [ 0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00]]
 0 ElectricField_node0_x
 1 ElectricField_node0_y
 2 ElectricField_node0_x:Potential@en0
@@ -103,7 +108,7 @@ Replacing Edge Model vdiff:Potential@n1 in region Bulk of material Silicon
 5 ElectricField_node0_y:Potential@en1
 6 ElectricField_node0_x:Potential@en2
 7 ElectricField_node0_y:Potential@en2
-0.0
+2.852175384759903e-09
 [[  0.         -26.54151391]
  [  0.         -26.54151391]
  [  0.         -26.54151391]]
@@ -121,12 +126,12 @@ Replacing Edge Model vdiff:Potential@n1 in region Bulk of material Silicon
 5 ElectricField_node1_y:Potential@en1
 6 ElectricField_node1_x:Potential@en2
 7 ElectricField_node1_y:Potential@en2
-0.0
-[[ 4.08677510e-15 -2.65415139e+01]
- [ 4.08677510e-15 -2.65415139e+01]
+2.852175384759903e-09
+[[ 2.66785446e-15 -2.65415139e+01]
+ [ 2.66785446e-15 -2.65415139e+01]
  [ 0.00000000e+00 -2.65415139e+01]]
-[[ 4.08677510e-15 -2.65415139e+01]
- [ 4.08677510e-15 -2.65415139e+01]
+[[ 2.66785446e-15 -2.65415139e+01]
+ [ 2.66785446e-15 -2.65415139e+01]
  [ 0.00000000e+00 -2.65415139e+01]]
 [[0. 0.]
  [0. 0.]
@@ -147,12 +152,12 @@ Replacing Triangle Edge Model sy in region Bulk of material Silicon
 5 ElectronCurrent_y:Potential@en1
 6 ElectronCurrent_x:Potential@en2
 7 ElectronCurrent_y:Potential@en2
-0.0
-[[-4.32882445e-19  1.20454936e-02]
- [-4.83941274e-19  1.20454936e-02]
+1.4901161193847656e-07
+[[-1.18664453e-18  1.20454936e-02]
+ [-1.32661020e-18  1.20454936e-02]
  [ 0.00000000e+00  1.20454936e-02]]
-[[-4.32882445e-19  1.20454936e-02]
- [-4.83941274e-19  1.20454936e-02]
+[[-1.18664453e-18  1.20454936e-02]
+ [-1.32661020e-18  1.20454936e-02]
  [ 0.00000000e+00  1.20454936e-02]]
 [[0. 0.]
  [0. 0.]
@@ -165,7 +170,7 @@ Replacing Triangle Edge Model sy in region Bulk of material Silicon
 5 ElectronCurrent_node0_y:Potential@en1
 6 ElectronCurrent_node0_x:Potential@en2
 7 ElectronCurrent_node0_y:Potential@en2
-0.0
+1.601874828338623e-07
 [[0.         0.01204549]
  [0.         0.01204549]
  [0.         0.01204549]]
@@ -183,12 +188,12 @@ Replacing Triangle Edge Model sy in region Bulk of material Silicon
 5 ElectronCurrent_node1_y:Potential@en1
 6 ElectronCurrent_node1_x:Potential@en2
 7 ElectronCurrent_node1_y:Potential@en2
-0.0
-[[-6.35841122e-19  1.20454936e-02]
- [-6.35841122e-19  1.20454936e-02]
+1.341104507446289e-07
+[[-1.74300760e-18  1.20454936e-02]
+ [-1.74300760e-18  1.20454936e-02]
  [ 0.00000000e+00  1.20454936e-02]]
-[[-6.35841122e-19  1.20454936e-02]
- [-6.35841122e-19  1.20454936e-02]
+[[-1.74300760e-18  1.20454936e-02]
+ [-1.74300760e-18  1.20454936e-02]
  [ 0.00000000e+00  1.20454936e-02]]
 [[0. 0.]
  [0. 0.]
