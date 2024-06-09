@@ -10,8 +10,8 @@ Trial run from a Anaconda Python environment:
 ```
 yum install cmake git
 source preinstall.sh
-pip install --target devsim_linux_2.7.1 devsim-2.7.1-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-chmod u+x devsim_linux_2.7.1/devsim_data/testing/rundifftest.py
-bash travis_tests.sh 2.7.1
+pip install --target devsim_linux_2.8.0 devsim-2.8.0-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+chmod u+x devsim_linux_2.8.0/devsim_data/testing/rundifftest.py
+bash travis_tests.sh 2.8.0
 ```
 
