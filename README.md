@@ -4,7 +4,7 @@ Please see ``travis_tests.sh`` for an example of how to setup and run the tests.
 
 Results are sensitive to the CPU and system libraries that may be installed in your Linux distribution.
 
-All tests pass on Amazon Linux 2023  running in a docker image on an Amazon AWS t4g.large instance.
+All tests pass in a Ubuntu latest image running in a docker image on an macOS M2 laptop.
 
 Trial run from a Anaconda Python environment:
 ```
