@@ -4,14 +4,14 @@ Please see ``travis_tests.sh`` for an example of how to setup and run the tests.
 
 Results are sensitive to the CPU and system libraries that may be installed in your Linux distribution.
 
-All tests pass in a Ubuntu latest image running in a docker image on an macOS M2 laptop.
+All tests pass in a Ubuntu 24.04 image running in a docker image on an Apple M2.
 
 Trial run from a Anaconda Python environment:
 ```
-yum install cmake git
+apt install cmake make libopenblas-dev
 source preinstall.sh
-pip install --target devsim_linux_2.8.1 devsim-2.8.1-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
-chmod u+x devsim_linux_2.8.1/devsim_data/testing/rundifftest.py
-bash travis_tests.sh 2.8.1
+pip install --target devsim_linux_2.8.3 devsim-2.8.3-cp37-abi3-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl
+chmod u+x devsim_linux_2.8.3/devsim_data/testing/rundifftest.py
+bash travis_tests.sh 2.8.3
 ```
 
