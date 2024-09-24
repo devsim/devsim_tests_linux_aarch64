@@ -8,10 +8,11 @@ All tests pass in a Ubuntu 24.04 image running in a docker image on an Apple M2.
 
 Trial run from a Anaconda Python environment:
 ```
-apt install cmake make libopenblas-dev
+apt install -y cmake make libopenblas-dev
 source preinstall.sh
-pip install --target devsim_linux_2.8.3 devsim-2.8.3-cp37-abi3-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl
-chmod u+x devsim_linux_2.8.3/devsim_data/testing/rundifftest.py
-bash travis_tests.sh 2.8.3
+pip install --target devsim_linux_2.8.4 devsim-2.8.4-cp37-abi3-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl
+chmod u+x devsim_linux_2.8.4/devsim_data/testing/rundifftest.py
+bash travis_tests.sh 2.8.4
 ```
 
+See ``docker.sh`` to start an ubuntu environment on a Linux aarch64 or macOS machine.
