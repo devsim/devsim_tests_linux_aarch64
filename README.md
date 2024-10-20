@@ -10,9 +10,9 @@ Trial run from a Anaconda Python environment:
 ```
 apt install -y cmake make libopenblas-dev
 source preinstall.sh
-pip install --target devsim_linux_2.8.4 devsim-2.8.4-cp37-abi3-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl
-chmod u+x devsim_linux_2.8.4/devsim_data/testing/rundifftest.py
-bash travis_tests.sh 2.8.4
+pip install --target devsim_linux_2.9.0 devsim-2.9.0-cp37-abi3-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl
+chmod u+x devsim_linux_2.9.0/devsim_data/testing/rundifftest.py
+bash travis_tests.sh 2.9.0
 ```
 
 See ``docker.sh`` to start an ubuntu environment on a Linux aarch64 or macOS machine.
