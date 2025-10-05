@@ -1,7 +1,7 @@
 
 # start colima in another window
 # colima start -f
-docker run -it -e DEBIAN_FRONTEND=noninteractive -e LC_ALL=C.UTF-8 -e LANG=C.UTF-8 -d --name ubuntu24_04 ubuntu:noble
+docker run -it -e CONDA_PLUGINS_AUTO_ACCEPT_TOS=yes -e DEBIAN_FRONTEND=noninteractive -e LC_ALL=C.UTF-8 -e LANG=C.UTF-8 -d --name ubuntu24_04 ubuntu:noble
 docker exec ubuntu24_04 bash -c "apt update -y && apt upgrade -y && apt install -y vim git curl locales"
 docker exec ubuntu24_04 bash -c "sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && locale-gen"
 (cd .. && tar czf tests_aarch64.tgz devsim_tests_linux_aarch64 && docker cp tests_aarch64.tgz ubuntu24_04:/root/)
