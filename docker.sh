@@ -1,4 +1,3 @@
-
 # start colima in another window
 # colima start -f
 docker run -it -e CONDA_PLUGINS_AUTO_ACCEPT_TOS=yes -e DEBIAN_FRONTEND=noninteractive -e LC_ALL=C.UTF-8 -e LANG=C.UTF-8 -d --name ubuntu24_04 ubuntu:noble
