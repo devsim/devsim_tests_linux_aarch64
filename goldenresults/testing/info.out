@@ -8,5 +8,5 @@ direct_solver	()
 extended_precision	True
 license	Apache License, Version 2.0
 math_libraries	('libopenblas.so', 'liblapack.so', 'libblas.so')
-version	2.10.1
+version	2.11.0
 website	https://devsim.org
