@@ -1,5 +1,5 @@
 # start colima in another window
-# colima start -f
+# colima start -f --vm-type vz --mount-type virtiofs
 docker run -it -e CONDA_PLUGINS_AUTO_ACCEPT_TOS=yes -e DEBIAN_FRONTEND=noninteractive -e LC_ALL=C.UTF-8 -e LANG=C.UTF-8 -d --name ubuntu24_04 ubuntu:noble
 docker exec ubuntu24_04 bash -c "apt update -y && apt upgrade -y && apt install -y vim git curl locales"
 docker exec ubuntu24_04 bash -c "sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && locale-gen"
