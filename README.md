@@ -8,7 +8,6 @@ All tests pass in a Ubuntu 24.04 image running in a docker image on an Apple M2.
 apt install -y cmake make libopenblas-dev
 curl -LsSf https://astral.sh | sh
 source $HOME/.local/bin/env
-uv venv venvt --python 3.15t
 ```
 
 Trial run from a Python 3.15 environment:
