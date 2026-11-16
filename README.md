@@ -6,7 +6,8 @@ All tests pass in a Ubuntu 24.04 image running in a docker image on an Apple M2.
 
 ```
 apt install -y cmake make libopenblas-dev
-curl -LsSf https://astral.sh | sh
+#curl -LsSf https://astral.sh | sh
+wget -qO- https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
 ```
 
@@ -16,6 +17,7 @@ uv venv venv --python 3.15
 source ./venv/bin/activate
 uv pip install --target devsim_linux_2.12.0_abi3  devsim-2.12.0-cp39-abi3-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl
 uv pip install numpy
+uv pip freeze > requirements.txt
 chmod u+x devsim_linux_2.12.0_abi3/devsim_data/testing/rundifftest.py
 bash travis_tests.sh 2.12.0_abi3
 ```
